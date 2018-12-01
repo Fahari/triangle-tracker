@@ -3,3 +3,14 @@ body {
   background-image: url("../images/shapes2.jpg");
   font-family: monospace;
 }
+.box {
+  text-align: center;
+  width: 40%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 1%;
+
+
+  background-image: url("../images/shapes.jpg");
+
+}
