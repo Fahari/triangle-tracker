@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-image: url("../images/shapes2.jpg");
   font-family: monospace;
+  font-size: 15px;
 }
 .box {
   text-align: center;
@@ -14,4 +15,15 @@ body {
 .input {
   display: block;
   margin: 20px;
+}
+.button {
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 5px;
+  outline-style: none;
+  }
+  .button:hover {
+  background-color: white;
 }
