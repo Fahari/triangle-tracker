@@ -1,10 +1,10 @@
 function values() {
-  var sides = new Array;                                       //create an array called "sides" that will store variables containing user input values.
+  var sides = new Array;        //create an array called "sides" that will store variables containing user input values.
   var inputA = (document.getElementById('SideA').value);       //create variables that will store user input values.
   var inputB = (document.getElementById('SideB').value);
   var inputC = (document.getElementById('SideC').value);
-  var output = (document.getElementById('output').value);
-                                                               //create variable "output" that contains value of what to be displayed.
+
+  var output = (document.getElementById('output').value);     //create variable "output" that contains value of what to be displayed.
 sides.push(inputA,inputB,inputC);                              //push variables containing user input in the empty array "sides".
 if (inputA.length === null || inputB.length === null || inputC.length === null) // checks whether user has typed or has left blank.
 {
@@ -14,7 +14,7 @@ var A = parseFloat(inputA);                                //converts the input 
 var B = parseFloat(inputB);
 var C = parseFloat(inputC);
 }
-brain(A,B,C);
+brain(A,B,C); //function "brain" is called within function "values"
 
 };
 
@@ -37,6 +37,6 @@ else {
   output.innerHTML = "<p>Your values CANNOT possibly form a triangle!</p>";
 }
 }
-function reset() {
+function reset() {   //resets input values to "empty".
   location.reload();
 }
