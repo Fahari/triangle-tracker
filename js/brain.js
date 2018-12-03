@@ -6,7 +6,7 @@ function values() {
   var output = (document.getElementById('output').value);
                                                                //create variable "output" that contains value of what to be displayed.
 sides.push(inputA,inputB,inputC);                              //push variables containing user input in the empty array "sides".
-if (inputA.length === undefined || inputB.length === undefined || inputC.length === undefined) // checks whether user has typed or has left blank.
+if (inputA.length === null || inputB.length === null || inputC.length === null) // checks whether user has typed or has left blank.
 {
   output.innerHTML = "<p>Please FILL all the fields.</p>"
 } else {
@@ -15,6 +15,7 @@ var B = parseFloat(inputB);
 var C = parseFloat(inputC);
 }
 brain(A,B,C);
+
 };
 
 function brain(A,B,C) {
