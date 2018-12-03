@@ -14,7 +14,22 @@ var B = parseFloat(inputB);
 var C = parseFloat(inputC);
 }
 }
-function brain()
-{
-
+function brain(A,B,C){
+ if (A + B > C && B + C > A && C + A > B) {
+   if(A === B && A === C) {
+     output.innerHTML = "<p>Your values give an EQUILATERAL triangle.</p>";
+}
+else if (A === B || B === C || A ===C) {
+output.innerHTML = "<p>Your values give an ISOSCELES triangle.</p>";
+}
+else {
+output.innerHTML = "<p>Your values give a SCALENE triangle.</p>";
+}
+}
+else if (isNaN(A) || isNaN(B) || isNaN(C)){
+  output.innerHTML = "<p>Please input a NUMBER!</p>";
+}
+else {
+  output.innerHTML = "<p>Your values CANNOT possibly form a triangle!</p>"
+}
 }
