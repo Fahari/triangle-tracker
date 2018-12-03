@@ -9,10 +9,10 @@ A user feeds it values through the input fields, and it evaluates the values int
 This is a snap of what to expect from the program.
 "  href = #"
 
-###Prerequisites
+### Prerequisites
 You need to have git installed.
 You can install git using the following command in your terminal $ sudo apt install git-all -y
-###Setup
+### Setup
 1. Open your terminal
 2. Use this command $ git clone https://github.com/Fahari/triangle-tracker
    This will clone the projects repository into a local folder on your device.
@@ -33,7 +33,7 @@ This has baffled me, but it seems to work.
 4. JavaScript
 5. git
 
-##Behavior Driven Development Process
+## Behavior Driven Development Process
 | Behavior                         |  Input Example |  Output  Example                 |
 |----------                                          |:-------------: |------:  |
 | User inputs 3 EQUAL sides                   | 7,7,7         | This is an EQUILATERAL triangle  |
@@ -45,7 +45,7 @@ This has baffled me, but it seems to work.
 | User inputs ANYTHING NOT a NUMBER  | @,$,5          | Please input a NUMBER! |
 | When sum of any 2 sides is > 3rd side | 9, 4,2   | That is NOT a triangle |
 
-##Site  
+## Site  
 You can access the live project at "#"
 
 ## Support and contact details
