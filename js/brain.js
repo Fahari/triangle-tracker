@@ -25,5 +25,8 @@ function brain(A,B,C) {
  else if (A === B || B === C || A ===C) {
  output.innerHTML = "<p>Your values give an ISOSCELES triangle.</p>";
  }
- 
+ else {
+ output.innerHTML = "<p>Your values give a SCALENE triangle.</p>";
+ }
+
 };
