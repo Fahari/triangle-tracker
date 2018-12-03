@@ -1,20 +1,20 @@
 function values() {
   var sides = new Array;                                       //create an array called "sides" that will store variables containing user input values.
-  var inputA = document.getElementById('SideA').value;         //create variables that will store user input values.
-  var inputB = document.getElementById('SideB').value;
-  var inputC = document.getElementById('SideC').value;
-  var output = document.getElementById('output').value;
+  var inputA = (document.getElementById('SideA').value);       //create variables that will store user input values.
+  var inputB = (document.getElementById('SideB').value);
+  var inputC = (document.getElementById('SideC').value);
+  var output = (document.getElementById('output').value);
                                                                //create variable "output" that contains value of what to be displayed.
 sides.push(inputA,inputB,inputC);                              //push variables containing user input in the empty array "sides".
-if (inputA.length === 0 || inputB.length === 0 || inputC.length === 0) // checks whether user has typed or has left blank.
+if (inputA.length === undefined || inputB.length === undefined || inputC.length === undefined) // checks whether user has typed or has left blank.
 {
   output.innerHTML = "<p>Please FILL all the fields.</p>"
 } else {
 var A = parseFloat(inputA);                                //converts the input string values to numbers,and stores the results variables(A,B & C).
 var B = parseFloat(inputB);
 var C = parseFloat(inputC);
-brain(A,B,C);
 }
+brain(A,B,C);
 };
 
 function brain(A,B,C) {
@@ -35,4 +35,7 @@ else if (isNaN(A) || isNaN(B) || isNaN(C)){
 else {
   output.innerHTML = "<p>Your values CANNOT possibly form a triangle!</p>";
 }
-};
+}
+function reset() {
+  location.reload();
+}
