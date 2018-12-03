@@ -18,7 +18,7 @@ You can install git using the following command in your terminal $ sudo apt inst
    This will clone the projects repository into a local folder on your device.
 3. Open the files with an editor( preferably Atom. )   
 4. Study the code. learn from it. Improve on it.
-## Known Bugs
+### Known Bugs
 The program works seamlessly. However, on to the evaluation of "IS THE INPUT FIELD EMPTY?", it does so in a method I believe JavaScript uses to handle UNDEFINED & NULL values. If you look at the JavaScript code, you will realize that I have defined IF the input field is EMPTY or ONE FIELD IS EMPTY, print out "PLEASE FILL ALL THE FIELDS". href"#"
 
 
@@ -26,7 +26,7 @@ On testing this with empty values, it however prints out "PLEASE INPUT A NUMBER!
 
 which is what it should print when ANYTHING BUT A NUMBER is used as input value. So, it automatically prints out the predefined output logic of another case scenario(WHEN ANYTHING BUT A NUMBER IS USED) rather than the case scenario(EMPTY INPUT FIELDS).
 This has baffled me, but it seems to work.
-## Technologies Used
+### Technologies Used
 1. Atom
 2. HTML
 3. CSS  
@@ -43,12 +43,12 @@ This has baffled me, but it seems to work.
 | User inputs 2 fields            | ,4,5          | Please FILL ALL the fields!  |
 | User inputs NO field            | ,,          | Please FILL ALL the fields!   |
 | User inputs ANYTHING NOT a NUMBER  | @,$,5          | Please input a NUMBER! |
-| When sum of any 2 sides is > 3rd side | 9, 4,2   | That is NOT a triangle |
+| When sum of any 2 sides is <= 3rd side | 9, 4,2   | That is NOT a triangle |
 
-## Site  
+### Site  
 You can access the live project at "#"
 
-## Support and contact details
+### Support and contact details
 Have a question? Want to report a bug? feeling philanthropic? drop a suggestion or comment at
 karonjekevin67@gmail.com
 ### License
