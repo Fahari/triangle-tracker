@@ -5,7 +5,7 @@
     <title>Triangle-Tracker</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/icon.jpg">
-    <script src="brain.js" type="text/javascript"></script>
+
   </head>
   <body>
     <h1>Triangle-Tracker</h1>
@@ -13,23 +13,24 @@
       <p>Give me your THREE length values, and I will show you what Triangle you have!</p>
       <form class ="input">
         <label for="SideA">Side A</label>
-        <input type="text" name="length1" id="SideA">
+        <input type="text" name="length1" id="SideA" required>
       </form>
       <form class ="input">
         <label for="SideB">Side B</label>
-        <input type="text" name="length2" id="SideB">
+        <input type="text" name="length2" id="SideB" required>
       </form>
       <form class="input">
         <label for="SideC">Side C</label>
-        <input type="text" name="length3" id="SideC">
+        <input type="text" name="length3" id="SideC" required>
       </form>
-      <form class="input">
-        <input type="button" class="button" value="Show me" onclick="#">
-        <input type="button" class="button" value="Reset" onclick="#">
+      <form class="input" class="button">
+        <input type="button" class="button" value="Show me" onclick="values();">
+        <input type="button" class="button" value="Reset" onclick="reset();">
       </form>
     </div><br><br><br>
     <div>
-    <p id="display">pussy clean</p>
+    <p id="output"></p>
     </div>
+    <script src="js/brain.js" type="text/javascript"></script>
   </body>
 </html>
