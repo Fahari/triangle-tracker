@@ -4,6 +4,7 @@ body {
   font-family: monospace;
   font-size: 15px;
 }
+
 .box {
   text-align: center;
   width: 40%;
@@ -12,10 +13,13 @@ body {
   padding: 1%;
   background-image: url("../images/shapes.jpg");
 }
+
 .input {
   display: block;
   margin: 20px;
+  margin-top: 45px;
 }
+
 .button {
   text-align: center;
   font-family: monospace;
@@ -24,11 +28,11 @@ body {
   border-radius: 5px;
   outline-style: none;
   margin-top: 20px;
-  margin-left:30px;
-  margin-right:-30px;
-  border-color:#EECFF1;
-
+  margin-left: 30px;
+  margin-right: -30px;
+  border-color: #EECFF1;
 }
+
 .button:hover {
   background-color: white;
 }
