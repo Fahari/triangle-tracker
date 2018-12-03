@@ -28,5 +28,9 @@ function brain(A,B,C) {
  else {
  output.innerHTML = "<p>Your values give a SCALENE triangle.</p>";
  }
+}
+else if (isNaN(A) || isNaN(B) || isNaN(C)){
+  output.innerHTML = "<p>Please input a NUMBER!</p>";
+}
 
 };
