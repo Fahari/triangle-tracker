@@ -32,5 +32,7 @@ function brain(A,B,C) {
 else if (isNaN(A) || isNaN(B) || isNaN(C)){
   output.innerHTML = "<p>Please input a NUMBER!</p>";
 }
-
+else {
+  output.innerHTML = "<p>Your values CANNOT possibly form a triangle!</p>";
+}
 };
