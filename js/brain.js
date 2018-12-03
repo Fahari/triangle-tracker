@@ -19,6 +19,8 @@ brain(A,B,C);
 
 function brain(A,B,C) {
   if (A + B > C && B + C > A && C + A > B) {
-
+    if(A === B && A === C) {
+     output.innerHTML = "<p>Your values give an EQUILATERAL triangle.</p>";
  }
+ 
 };
