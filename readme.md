@@ -7,7 +7,7 @@
 The Triangle-tracker is essentially a program that is able to classify triangles based solely on the length of the sides provided. It achieves this ability by using Control Flows i.e IF, IF-ELSE, ELSE statements and Logic Operators i.e ===, >, <, &&, ||, etc. that are strategically placed to follow a logic structure that makes it a powerful tool, and yet keeping it simple enough to use.
 A user feeds it values through the input fields, and it evaluates the values into categories of EQUILATERAL, SCALENE, ISOSCELES or NOT a triangle at all.
 This is a snap of what to expect from the program.
-![image] (https://github.com/Fahari/triangle-tracker/blob/master/images/triangle-tracker.png)
+![Image] (https://github.com/Fahari/triangle-tracker/blob/master/images/triangle-tracker.png)
 
 ### Prerequisites
 You need to have git installed.
@@ -19,7 +19,7 @@ You can install git using the following command in your terminal $ sudo apt inst
 3. Open the files with an editor( preferably Atom. )   
 4. Study the code. learn from it. Improve on it.
 ### Known Bugs
-The program works seamlessly. However, on to the evaluation of "IS THE INPUT FIELD EMPTY?", it does so in a method I believe JavaScript uses to handle UNDEFINED & NULL values. If you look at the JavaScript code, you will realize that I have defined IF the input field is EMPTY or ONE FIELD IS EMPTY, print out "PLEASE FILL ALL THE FIELDS". ![image] (https://github.com/Fahari/triangle-tracker/blob/master/images/bug1.png)
+The program works seamlessly. However, on to the evaluation of "IS THE INPUT FIELD EMPTY?", it does so in a method I believe JavaScript uses to handle UNDEFINED & NULL values. If you look at the JavaScript code, you will realize that I have defined IF the input field is EMPTY or ONE FIELD IS EMPTY, print out "PLEASE FILL ALL THE FIELDS". ![Image] (https://github.com/Fahari/triangle-tracker/blob/master/images/bug1.png)
 
 
 On testing this with empty values, it however prints out "PLEASE INPUT A NUMBER! ![Image] (https://github.com/Fahari/triangle-tracker/blob/master/images/bug22.png)
