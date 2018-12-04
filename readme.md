@@ -7,7 +7,8 @@
 The Triangle-tracker is essentially a program that is able to classify triangles based solely on the length of the sides provided. It achieves this ability by using Control Flows i.e IF, IF-ELSE, ELSE statements and Logic Operators i.e ===, >, <, &&, ||, etc. that are strategically placed to follow a logic structure that makes it a powerful tool, and yet keeping it simple enough to use.
 A user feeds it values through the input fields, and it evaluates the values into categories of EQUILATERAL, SCALENE, ISOSCELES or NOT a triangle at all.
 This is a snap of what to expect from the program.
-![Image] (https://github.com/Fahari/triangle-tracker/blob/master/images/triangle-tracker.png)
+
+![Image](https://github.com/Fahari/triangle-tracker/blob/master/images/triangle-tracker.png)
 
 ### Prerequisites
 You need to have git installed.
@@ -46,7 +47,7 @@ This has baffled me, but it seems to work.
 | When sum of any 2 sides is <= 3rd side | 9, 4,2   | That is NOT a triangle |
 
 ### Site  
-You can access the live project at "#"
+You can access the live project at https://fahari.github.io/triangle-tracker/
 
 ### Support and contact details
 Have a question? Want to report a bug? feeling philanthropic? drop a suggestion or comment at
